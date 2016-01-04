@@ -20,8 +20,10 @@ cp node_modules/\@spalger/babel-presets/.babelrc.example .babelrc
 
 Add this to your .babelrc file
 
+```json
 {
   "presets": [
     "@spalger/babel-presets"
   ]
 }
+```
