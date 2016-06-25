@@ -1,5 +1,5 @@
 {
   "presets": [
-    "@spalger/personal"
+    "@spalger/babel-presets"
   ]
 }
