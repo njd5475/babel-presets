@@ -5,8 +5,6 @@ module.exports = function (opts) {
   var amd = opts.amd
 
   return [
-    require('babel-plugin-transform-class-properties'),
-
     // es2015
     require('babel-plugin-check-es2015-constants'),
     require('babel-plugin-transform-es2015-arrow-functions'),
@@ -32,6 +30,7 @@ module.exports = function (opts) {
 
     // stage 1
     require('babel-plugin-transform-class-constructor-call'),
+    require('babel-plugin-transform-class-properties'),
     require('babel-plugin-transform-decorators'),
     require('babel-plugin-transform-export-extensions'),
 
